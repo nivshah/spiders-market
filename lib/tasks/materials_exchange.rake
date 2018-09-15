@@ -8,7 +8,10 @@ namespace :materials_exchange do
     CHARACTER_ID = 2305843009261741051 # titan?
 
     oauthUrl = "https://www.bungie.net/en/OAuth/Authorize?client_id={API_CLIENT_ID}&response_type=code"
-    
+
+    # do oauth
+    # wait until we have an environment variable with request token
+    # once we do, then get exchange info
 
 
     d2client = LittleLight.new("565ba6c00fcc48a99e94eafaa43c491c")
