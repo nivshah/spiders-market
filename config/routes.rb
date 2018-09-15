@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'market_view/index'
+  get 'market/index'
 
   get 'bungie_auth/index'
 
