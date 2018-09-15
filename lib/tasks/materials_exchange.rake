@@ -20,6 +20,10 @@ namespace :materials_exchange do
     # need to figure out character ID for any of these guys
 
     d2client.get_one_vendor("VendorCategories, VendorSales")
+
+
+    # unset environment variable with request token so re-auth happens clean next time the script runs
+    
   end
 
 end
