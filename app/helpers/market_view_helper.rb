@@ -1,0 +1,2 @@
+module MarketViewHelper
+end
